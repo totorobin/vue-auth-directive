@@ -8,7 +8,6 @@ export const authInstallDirective =
         const savedPlaces = new WeakMap()
         // eslint-disable-next-line
         const display = (el: any , show : boolean) => {
-            console.log(el, show)
             if (!show) {
                 // cas "classique" si pas d'habilitation on remplace le composant par un commentaire
                 const replacer = document.createComment(`v-auth`)

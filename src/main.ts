@@ -1,8 +1,8 @@
 import { createApp} from 'vue'
 import './style.css'
 import App from './App.vue'
-import authPlugin from '../lib/main.ts'
-import {useUserStore} from './store/UserStore.ts'
+import authPlugin from '../lib/main'
+import {useUserStore} from './store/UserStore'
 
 const userStore = useUserStore()
 

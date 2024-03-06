@@ -1,7 +1,9 @@
 import { AuthPluginOptions, authInstallDirective} from "./VueAuthDirective"
+import { type Plugin } from 'vue'
 
-export default {
+const vueAuthDirective: Plugin = {
     install: authInstallDirective
 }
 
+export default vueAuthDirective
 export { type AuthPluginOptions }
